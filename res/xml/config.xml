@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns="http://www.w3.org/ns/widgets" id="app.raazoneyaaz" version="1.0.5">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+    <name>Raaz O Neyaaz
+    </name>
+    <description> Raaz O Neyaaz App 
+    </description>
+    <author email="xeotech14@gmail.com" href="#"> xeotech14@gmail.com 
+    </author>
+    <content src="index.html"/>
+    <access origin="*"/>
+    <allow-intent href="http://*/*"/>
+    <allow-intent href="https://*/*"/>
+    <allow-intent href="tel:*"/>
+    <allow-intent href="sms:*"/>
+    <allow-intent href="mailto:*"/>
+    <allow-intent href="geo:*"/>
+    <allow-intent href="market:*"/>
+    <icon density="ldpi" src="res/icon/android/ldpi.png"/>
+    <icon density="mdpi" src="res/icon/android/mdpi.png"/>
+    <icon density="hdpi" src="res/icon/android/hdpi.png"/>
+    <icon density="xhdpi" src="res/icon/android/xhdpi.png"/>
+    <icon density="xxhdpi" src="res/icon/android/xxhdpi.png"/>
+    <icon density="xxxhdpi" src="res/icon/android/xxxhdpi.png"/>
+    <preference name="loglevel" value="DEBUG"/>
+    <preference name="Orientation" value="portrait"/>
+    <preference name="FullScreen" value="true"/>
+</widget>

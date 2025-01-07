@@ -1,0 +1,402 @@
+.first-page{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top:0;
+    margin: 0;
+    display: block;
+}
+.first-page-body{
+    position: fixed;
+    visibility: hidden;
+    height: 100%;
+    width: 100%;
+}
+.first-page2{
+    background-image: url("FrontPage.png");
+    position: fixed;
+    background-size: 100% 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    left: 0;
+    top:0rem;
+}
+.first-pg-header-style{
+    background-image: url("FrontHeadPanel.png");
+    border-bottom-style: hidden ;
+    background-size: 100% 100%;
+    line-height: normal;
+    /* background-repeat: repeat; 
+    text-align: center;
+    
+    padding-top: 0rem;
+    padding-bottom: 0rem; */
+    /* border-bottom: 0; */
+}
+
+
+.header-style {
+    font-weight: bold;
+    font-family: 'Times New Roman Narrow';
+    vertical-align: middle;
+    color: #FFFCDC;
+    font-size: 1.2rem;
+    margin-bottom: 0rem;
+    border-bottom: 0px;
+    /* visibility: hidden; */
+    border-bottom-style: solid;  
+}
+@font-face {
+    font-family: myArabicFont;
+    src: url("AsifQuranic.ttf");
+  }
+
+  @font-face {
+    font-family: mySurahFont;
+    src: url("1\ MUHAMMADI\ QURANIC.ttf");
+  }
+.index-header-style{
+    background-image: url("AllHeader.png");
+    border-bottom-style: solid;
+    background-size: 100% 100%;
+    background-repeat: repeat; 
+    /* visibility: hidden; */
+    text-align: center;
+    line-height: normal;
+    padding-top: 1rem;
+}
+.naqsh-page{
+    position: fixed;
+    background-size: 100% 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    left: 0;
+    backface-visibility: visible;
+    top:0rem;
+}
+.naqsh-header-style{
+    border-bottom-style: solid;
+    background-size: 100% 100%;
+    background-repeat: repeat; 
+    text-align: center;
+    line-height: normal;
+    color: #FFFCDC;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 3rem;
+    /* visibility: hidden; */
+    padding-top: 1rem;
+    border-bottom: 0;
+    backface-visibility: visible;
+}
+.initial-heading-style{
+    background-image: url("Page2Header.png");
+    border-bottom-style: solid;
+    background-size: 100% 100%;
+    background-repeat: repeat; 
+    text-align: center;
+    line-height: normal;
+    padding-top: 1rem;
+}
+
+.body-style {
+    background-color: #FFFCDC;
+    font-size: 1.4rem;
+    text-align: justify;
+    font-family: 'Times New Roman';
+}
+.mainindex-style{
+    margin-top: 4rem;
+    text-align: center;  
+    vertical-align: middle;  
+}
+.mainindextext-style{
+    color: #000000;
+    font-weight: 550;
+    font-size: 1.4rem;
+    text-align: left;
+}
+.mainbtntext-style{
+    color: #000000;
+    font-weight: 550;
+    transform: translate(0vw, -2.5rem);
+    line-height: 0rem;
+    font-size: 1.8rem;
+}
+.foot-style{
+    background-image: url("IndexFooter.png");
+    background-repeat: repeat;
+    margin-bottom: 0rem;
+    border-top: 1px;
+    color: transparent;
+    border-top-style: solid;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    position: fixed;
+    background-position: bottom;
+    line-height: 2rem;
+}
+.tab
+{
+    overflow: hidden;
+    /* padding-top: 1rem; */
+    border: 0px solid #ccc;
+    background-color:transparent;
+}
+.tab a {
+    background-color: inherit;
+    color: #000000;
+    border: none;
+    outline: #FFFCDC;
+    cursor:pointer;
+    /* transition: 0s; */
+    font-family: 'Times New Roman';
+    font-size: 0.9rem;
+    height: auto;
+    /* padding-top: 0.5rem; */
+  }
+  .tab a:hover {
+    /* background-color: #FFFCDC; */
+    color: #FFFCDC;
+ }
+
+  .tab a.active {
+    /* background-color:#FFFCDC; */
+    color: #FFFCDC;
+    
+  }
+
+  .tabcontent {
+    display: none;
+  } 
+
+.all-heading-style{
+    background-image: url("AllHeader.png");
+}
+.footer{
+    margin-bottom: 0rem;
+    border-top: 1px;
+    /* color: transparent; */
+    text-align: center;
+    bottom: 0;
+  /*   left: 0;
+    right: 0; */
+    width: 100%;
+    position: fixed;
+    /* padding-bottom: 0.7rem; */
+    /* font-size: 1.5rem; */
+}
+.arrows{
+    margin-top:0.8rem;
+    margin-bottom: 1rem;
+    backface-visibility: visible;
+}
+.arrow-style{
+    height: 2.2rem;
+    /* visibility: hidden; */
+}
+.allbtn-style{
+    width: 15rem;
+    height: 3.8rem;
+}
+body{
+    background-color: #FFFCDC;
+}
+.all-body-style{
+    background-color: #FFFCDC;
+    font-size: 1.7rem;
+    font-family: 'Times New Roman';
+    padding-top: 1rem;
+    line-height: 2.3rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: justify;
+    /* text-decoration: none; */
+}
+.arabic-body-style{
+    background-color: #FFFCDC;
+    font-size: 2.5rem;
+    font-family: "myArabicFont";
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 0px;
+    line-height: 5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin-bottom: 0px;
+    text-align: center;
+    /* text-align-last: right; */
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.allnew-body-style{
+    background-color: #FFFCDC;
+    font-size: 1.7rem;
+    font-family: 'Times New Roman';
+    padding-top: 1rem;
+    line-height: 2.3rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+    /* text-decoration: none; */
+}
+.arabic-body-style{
+    background-color: #FFFCDC;
+    font-size: 2.5rem;
+    font-family: "myArabicFont";
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 0px;
+    line-height: 5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin-bottom: 0px;
+    text-align: center;
+    /* text-align-last: right; */
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+
+sup{
+    font-size: 0.9rem;
+}
+.surah-font{
+        background-color: #FFFCDC;
+        font-size: 2.5rem;
+        font-family: "mySurahFont";
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-top: 0px;
+        line-height: 5rem;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        margin-bottom: 0px;
+        text-align: center;
+        /* text-align-last: right; */
+        text-decoration: underline;
+        text-underline-position: under;
+    }
+.all-foot-style{
+    background-image: url("allfooter.png");
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    position: fixed;
+    border-top: 1px;
+    border-top-style: solid;
+    border-bottom: 0px;
+    border-bottom-style: solid; 
+    margin-bottom: 0rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
+    text-align: center;
+}
+.namaz-foot-style{
+    background-image: url("BottomPanelPlain.png");
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    position: fixed;
+    border-top: 1px;
+    border-top-style: solid;
+    border-bottom: 0px;
+    border-bottom-style: solid; 
+    margin-bottom: 0rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.2rem;
+    /* text-align: center; */
+}
+
+.index-foot-style{
+    background-image: url("page1bottomPanel.png");
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    position: fixed;
+    border-top: 1px;
+    border-top-style: solid;
+    border-bottom: 0px;
+    border-bottom-style: solid; 
+    margin-bottom: 0rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.2rem;
+}
+
+
+
+        /* Media Queries */
+
+/* @media screen 
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 2)  { 
+        .all-padding-style{
+        padding-top: 3rem;
+    }
+    .initial-padding-style{
+        padding-top: 0rem;
+    }
+    .initial-heading-style{
+        font-size: 6vw;
+    }
+    .mainbtntext-style{
+        font-size: 7vw;
+    }
+    .allbtntext-style{
+        font-size: 5.7vw;
+    }
+    .body-style{
+        font-size: 7vw;
+    }
+    .indexheader2-style{
+        font-size: 7vw;
+    }
+    .amalbtntext-style{
+        font-size: 6vw;
+        transform: translate(0vw, -22vw);
+    }
+} */
+
+
+
+
+
+
+
+*
+{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+input
+{
+-webkit-user-select: auto !important;
+-khtml-user-select: auto !important;
+-moz-user-select: auto !important;
+-ms-user-select: auto !important;
+user-select: auto !important;
+}
