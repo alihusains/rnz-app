@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="exo_controls_fastforward">?unknown_ref: 7f070094</drawable>
+    <drawable name="exo_controls_fullscreen_enter">?unknown_ref: 7f070095</drawable>
+    <drawable name="exo_controls_fullscreen_exit">?unknown_ref: 7f070096</drawable>
+    <drawable name="exo_controls_next">?unknown_ref: 7f070097</drawable>
+    <drawable name="exo_controls_pause">?unknown_ref: 7f070098</drawable>
+    <drawable name="exo_controls_play">?unknown_ref: 7f070099</drawable>
+    <drawable name="exo_controls_previous">?unknown_ref: 7f07009a</drawable>
+    <drawable name="exo_controls_repeat_all">?unknown_ref: 7f07009b</drawable>
+    <drawable name="exo_controls_repeat_off">?unknown_ref: 7f07009c</drawable>
+    <drawable name="exo_controls_repeat_one">?unknown_ref: 7f07009d</drawable>
+    <drawable name="exo_controls_rewind">?unknown_ref: 7f07009e</drawable>
+    <drawable name="exo_controls_shuffle_off">?unknown_ref: 7f07009f</drawable>
+    <drawable name="exo_controls_shuffle_on">?unknown_ref: 7f0700a0</drawable>
+    <drawable name="exo_controls_vr">?unknown_ref: 7f0700a2</drawable>
+    <drawable name="exo_notification_fastforward">?unknown_ref: 7f070094</drawable>
+    <drawable name="exo_notification_next">?unknown_ref: 7f070097</drawable>
+    <drawable name="exo_notification_pause">?unknown_ref: 7f070098</drawable>
+    <drawable name="exo_notification_play">?unknown_ref: 7f070099</drawable>
+    <drawable name="exo_notification_previous">?unknown_ref: 7f07009a</drawable>
+    <drawable name="exo_notification_rewind">?unknown_ref: 7f07009e</drawable>
+    <drawable name="exo_notification_small_icon">?unknown_ref: 7f070093</drawable>
+    <drawable name="exo_notification_stop">?unknown_ref: 7f0700a1</drawable>
+    <drawable name="notification_template_icon_bg">#3333b5e5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+</resources>
